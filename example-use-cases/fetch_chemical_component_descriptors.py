@@ -1,3 +1,8 @@
+# Any code that is provided should include an explicit list of all libraries that must be installed/imported
+# along with the command needed to do so. In this case
+# !pip install rcsbsearchapi
+# !pip install python_graphql_client
+
 # Minimal Python script to fetch all chemical component IDs and then fetch the SMILES, InChI, etc. strings associated with them
 #
 # Requires the following modules to be installed:
