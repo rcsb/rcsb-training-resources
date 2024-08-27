@@ -1,5 +1,5 @@
 # rcsb-training-resources
-The RCSB PDB frequently offers [training-events](training-events) that explain and demonstrate more advanced or automated approaches to utilizing PDB resources. We believe these resources will provide you with tools to improve your research, teaching and overall productivity as explore macromolecular structures. All materials in this repository are open source and governed by the MIT license.
+The RCSB PDB frequently offers [training-events](training-events) that explain and demonstrate more advanced or automated approaches to utilizing PDB resources. We believe these resources will provide you with tools to improve your research, teaching and overall productivity as explore macromolecular structures. All materials in this repository are open source.
 
 ## Workshops
 
