@@ -1,23 +1,23 @@
 # rcsb-training-resources
-The RCSB PDB frequently offers ([training-events](training-events)) that explain and demonstrate more advanced or automated approaches to utilizing PDB resources. We believe these resources will provide you with tools to improve your research, teaching and overall productivity as explore macromolecular structures. All materials in this repository are open source and governed by the **Do you want to include a license?** license.
+The RCSB PDB frequently offers [training-events](training-events) that explain and demonstrate more advanced or automated approaches to utilizing PDB resources. We believe these resources will provide you with tools to improve your research, teaching and overall productivity as explore macromolecular structures. All materials in this repository are open source and governed by the MIT license.
 
 ## Workshops
 
 | Workshop      | Dates     | Link to Resources | Skill Level |
-| :------------- | :-------------: | :------------- |
-| Understanding PDB Validation:
-Which experimental structures should I rely on? | May 14, 2024 | https://pdb101.rcsb.org/train/training-events/validation | *Introductory* |
+| :------------- | :-------------: | :------------- | :------------- |
+| Python Scripting for Molecular Docking | July 18, 2024 | [Workshop materials](training-events/2024/python-scripting-for-molecular-docking/), [Course description](https://iqb.rutgers.edu/node/284) | *Introductory* |
+| Understanding PDB Validation: Which experimental structures should I rely on? | May 14, 2024 | https://pdb101.rcsb.org/train/training-events/validation | *Introductory* |
 | A Deep Dive into Computed Structure Model Exploration at RCSB.org | April 30, 2024 | https://pdb101.rcsb.org/train/training-events/csm2 | *Introductory* |
+| Leveraging RCSB PDB APIs for Bioinformatics Analyses and Machine Learning | October 12, 2023 | [Workshop materials](training-events/2023/leveraging-rcsb-pdb-apis/), [PDB-101](https://pdb101.rcsb.org/train/training-events/api) | *Scripting* |
+
+The full list of training events can be found here: https://pdb101.rcsb.org/train/training-events
 
 ## Example Use Cases
+In addition to resources and materials referenced in RCSB PDB training events ([training-events](training-events)), this repository contains a collection of example files describing various use cases of RCSB.org services ([example-use-cases](example-use-cases)).
 
 | Title | Application | Skill Level |
 | :---- | :---------- | :---------: |
-| fetch_chemical_component_descriptors.py | Python script to fetch all chemical component IDs and then fetch the SMILES, InChI, etc. strings associated with them | *Scripting* |
-
-In addition to resources and materials referenced in RCSB PDB training events ([training-events](training-events)), this repository contains a collection of example files describing various use cases of RCSB.org services ([example-use-cases](example-use-cases)).
-
-The full list of training events can be found here: https://pdb101.rcsb.org/train/training-events
+| [Fetch_chemical_component_IDs_walkthrough.ipynb](example-use-cases/chemical-components/Fetch_chemical_component_IDs_walkthrough.ipynb), [fetch_chemical_component_descriptors.py](example-use-cases/chemical-components/fetch_chemical_component_descriptors.py) | Python script to fetch all chemical component IDs and then fetch the SMILES, InChI, etc. strings associated with them | *Scripting* |
 
 ## Skill Levels
 
