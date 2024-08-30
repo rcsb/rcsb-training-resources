@@ -17,7 +17,7 @@ In addition to resources and materials referenced in RCSB PDB training events ([
 
 | Title | Application | Skill Level |
 | :---- | :---------- | :---------: |
-| [Fetch_chemical_descriptors.ipynb](example-use-cases/chemical-components/fetch_chemical_descriptors.ipynb), [fetch_chemical_descriptors.py](example-use-cases/chemical-components/fetch_chemical_descriptors.py) | Python script to fetch all chemical component IDs and then fetch the SMILES, InChI, etc. strings associated with them | *Scripting* |
+| [fetch_chemical_descriptors.ipynb](example-use-cases/chemical-components/fetch_chemical_descriptors.ipynb), [fetch_chemical_descriptors.py](example-use-cases/chemical-components/fetch_chemical_descriptors.py) | Python script to fetch all chemical component IDs and then fetch the SMILES, InChI, etc. strings associated with them | *Scripting* |
 
 ## Skill Levels
 
