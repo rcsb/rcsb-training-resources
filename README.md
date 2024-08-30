@@ -5,7 +5,7 @@ The RCSB PDB frequently offers [training-events](training-events) that explain a
 
 | Workshop      | Dates     | Link to Resources | Skill Level |
 | :------------- | :-------------: | :------------- | :------------- |
-| Python Scripting for Molecular Docking | July 18, 2024 | [Workshop materials](training-events/2024/python-scripting-for-molecular-docking/), [Course description](https://iqb.rutgers.edu/node/284) | *Introductory* |
+| Python Scripting for Molecular Docking | July 18, 2024 | [Workshop materials](https://github.com/janash/iqb-2024), [Course description](https://iqb.rutgers.edu/node/284) | *Introductory* |
 | Understanding PDB Validation: Which experimental structures should I rely on? | May 14, 2024 | https://pdb101.rcsb.org/train/training-events/validation | *Introductory* |
 | A Deep Dive into Computed Structure Model Exploration at RCSB.org | April 30, 2024 | https://pdb101.rcsb.org/train/training-events/csm2 | *Introductory* |
 | Leveraging RCSB PDB APIs for Bioinformatics Analyses and Machine Learning | October 12, 2023 | [Workshop materials](training-events/2023/leveraging-rcsb-pdb-apis/), [PDB-101](https://pdb101.rcsb.org/train/training-events/api) | *Scripting* |
@@ -17,7 +17,7 @@ In addition to resources and materials referenced in RCSB PDB training events ([
 
 | Title | Application | Skill Level |
 | :---- | :---------- | :---------: |
-| [Fetch_chemical_component_IDs_walkthrough.ipynb](example-use-cases/chemical-components/Fetch_chemical_component_IDs_walkthrough.ipynb), [fetch_chemical_component_descriptors.py](example-use-cases/chemical-components/fetch_chemical_component_descriptors.py) | Python script to fetch all chemical component IDs and then fetch the SMILES, InChI, etc. strings associated with them | *Scripting* |
+| [Fetch_chemical_descriptors.ipynb](example-use-cases/chemical-components/fetch_chemical_descriptors.ipynb), [fetch_chemical_descriptors.py](example-use-cases/chemical-components/fetch_chemical_descriptors.py) | Python script to fetch all chemical component IDs and then fetch the SMILES, InChI, etc. strings associated with them | *Scripting* |
 
 ## Skill Levels
 
