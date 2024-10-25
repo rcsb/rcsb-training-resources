@@ -1,5 +1,5 @@
 # Unlocking Rapid Analyses Across the Whole PDB Using BinaryCIF
-## Virtual Crash Course | October 4, 2024
+## Virtual Crash Course | November 4, 2024
 
 Jupyter notebooks used for the RCSB PDB API Crash Course, "Unlocking Rapid Analyses Across the Whole PDB Using BinaryCIF".
 
