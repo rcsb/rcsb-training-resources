@@ -5,7 +5,7 @@
 Crash course summary and additional materials (including slides) will be made available here: https://pdb101.rcsb.org/train/training-events/
 
 ### Python Resources
-Jupyter notebooks used for the RCSB PDB API Crash Course, "Unlocking Rapid Analyses Across the Whole PDB Using BinaryCIF".
+- [Jupyter notebook](RCSB_mmCIF_BCIF_demo.ipynb) demonstrating example usage of RCSB PDB Python packages for working with mmCIF and BCIF data files
 
 ### Java Resources
 The GitHub repository used in the Java example of the course is accessible here: https://github.com/rcsb/rcsb-stats.
