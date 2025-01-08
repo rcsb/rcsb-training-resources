@@ -17,6 +17,7 @@ In addition to resources and materials referenced in RCSB PDB training events ([
 
 | Title | Application | Skill Level |
 | :---- | :---------- | :---------: |
+| [fetch_initial_release_date.ipynb](example-use-cases/archive-wide-queries/fetch_initial_release_date.ipynb), [fetch_initial_release_date.py](example-use-cases/archive-wide-queries/fetch_initial_release_date.py) | Python script to fetch initial release date for all currently released PDB entries | *Scripting* |
 | [fetch_chemical_descriptors.ipynb](example-use-cases/chemical-components/fetch_chemical_descriptors.ipynb), [fetch_chemical_descriptors.py](example-use-cases/chemical-components/fetch_chemical_descriptors.py) | Python script to fetch all chemical component IDs and then fetch the SMILES, InChI, etc. strings associated with them | *Scripting* |
 
 ## Skill Levels
