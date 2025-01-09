@@ -1,3 +1,13 @@
+"""  
+Python script for fetching the initial release date for all PDB entries (via RCSB PDB APIs).  
+The results are saved into a CSV file, `rcsb_release_dates.csv`.  
+
+This script requires the following packages, which can be installed with:  
+pip install python-dateutil  
+pip install requests  
+pip install rcsb-api  
+""" 
+
 import requests
 import csv
 from dateutil import parser
