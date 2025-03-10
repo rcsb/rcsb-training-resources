@@ -5,6 +5,7 @@ The RCSB PDB frequently offers [training-events](training-events) that explain a
 
 | Workshop      | Dates     | Link to Resources | Skill Level |
 | :------------- | :-------------: | :------------- | :------------- |
+| Streamlining Access to RCSB PDB APIs with Python | March 24, 2025 |  | *Introductory* |
 | Python Scripting for Molecular Docking | July 18, 2024 | [Workshop materials](https://github.com/janash/iqb-2024), [Course description](https://iqb.rutgers.edu/node/284) | *Introductory* |
 | Understanding PDB Validation: Which experimental structures should I rely on? | May 14, 2024 | https://pdb101.rcsb.org/train/training-events/validation | *Introductory* |
 | A Deep Dive into Computed Structure Model Exploration at RCSB.org | April 30, 2024 | https://pdb101.rcsb.org/train/training-events/csm2 | *Introductory* |
