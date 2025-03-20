@@ -10,4 +10,4 @@ Jupyter notebooks used for the RCSB PDB API Webinar, "Streamlining Access to RCS
 | ---------------- | ------------|
 | [search_api.ipynb](./search_api.ipynb) | Overview of using the Search API subpackage in `rcsb-api`|
 | [data_api.ipynb](./data_api.ipynb) | Overview of using the Data API subpackage in `rcsb-api`      |
-| [search_data_workflow.ipynb](./search_data_workflow.ipynb) | Example of using Search and Data API together to search for COVID-19 structures and related structure information|
+| [search_data_workflow.ipynb](./search_data_workflow.ipynb) | Example of using Search and Data API together to search for HIV structures and related structure information|
