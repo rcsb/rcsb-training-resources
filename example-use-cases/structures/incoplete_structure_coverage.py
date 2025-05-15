@@ -178,12 +178,14 @@ def parse_data(data, ids):
 if __name__ == "__main__":
     s_time = time.time()
 
+    # Find all protein chains with missing coordinates
     search_s_time = time.time()
     # chain_ids = exec_search()
     chain_ids = exec_search_library()
     search_e_time = time.time()
     print(f"Search execution time: {search_e_time - search_s_time:.4f} seconds. Retrieved {len(chain_ids)} IDs")
 
+    # Fetch data for missing coordinates sequence ranges and select chains with non-terminal, non-contiguous regions
     data_s_time = time.time()
     size = 5_000
     batches = [chain_ids[i:i + size] for i in range(0, len(chain_ids), size)]
