@@ -26,7 +26,13 @@ def exec_search_library():
         value="Protein"
     )
 
-    query = (q1 & q2) & q3
+    q4 = AttributeQuery(
+        attribute="entity_poly.rcsb_sample_sequence_length",
+        operator="greater",
+        value=20
+    )
+
+    query = (q1 & q2) & q3 & q4
 
     result_set = []
     i = 0
@@ -38,7 +44,7 @@ def exec_search_library():
     # result_set = list(query(
     #     return_type="polymer_instance",
     #     results_verbosity="compact",
-    #     rows=10
+    #     return_all_hits=True
     # ))
     return result_set
 
@@ -81,6 +87,16 @@ def exec_search():
                         "operator": "exact_match",
                         "value": "Protein"
                     }
+                },
+                {
+                    "type": "terminal",
+                    "label": "text",
+                    "service": "text",
+                    "parameters": {
+                        "attribute": "entity_poly.rcsb_sample_sequence_length",
+                        "operator": "greater",
+                        "value": 20
+                    }
                 }
             ]
         },
@@ -88,10 +104,10 @@ def exec_search():
         "request_options": {
             # Every search hit is returned as a simple string, e.g. "4HHB.A", with no additional metadata
             "results_verbosity": "compact",
-            # "return_all_hits": True,
+            # "return_all_hits": true,
             "paginate": {
                 "start": 0,
-                "rows": 5000
+                "rows": 1000
             }
         }
     }
@@ -171,7 +187,7 @@ def parse_data(data, ids):
                     if r['beg_seq_id'] != 1 and r['end_seq_id'] != sequence_length:
                         unobserved_range_count += 1
                 # include only chains with 2 or more non-terminal regions
-                if unobserved_range_count > 2:
+                if unobserved_range_count >= 2:
                     ids.append(pdb_id)
 
 
