@@ -43,8 +43,7 @@ def exec_search_library():
             break
     # result_set = list(query(
     #     return_type="polymer_instance",
-    #     results_verbosity="compact",
-    #     return_all_hits=True
+    #     results_verbosity="compact"
     # ))
     return result_set
 
