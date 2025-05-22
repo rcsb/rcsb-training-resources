@@ -103,7 +103,7 @@ def exec_search():
         "request_options": {
             # Every search hit is returned as a simple string, e.g. "4HHB.A", with no additional metadata
             "results_verbosity": "compact",
-            # "return_all_hits": true,
+            # "return_all_hits": True,
             "paginate": {
                 "start": 0,
                 "rows": 1000
