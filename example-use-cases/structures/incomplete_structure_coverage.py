@@ -169,7 +169,8 @@ def exec_data(id_batches):
     selected_chain_ids = []
     for batch in id_batches:
         query_variables = {"ids": batch}
-        data = client.execute(query=query_method, variables=query_variables)
+        # Execute the query with a timeout (in seconds)
+        data = client.execute(query=query_method, variables=query_variables, timeout=60)
         parse_data(data, selected_chain_ids)
     return selected_chain_ids
 
