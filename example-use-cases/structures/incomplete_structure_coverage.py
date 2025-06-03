@@ -103,11 +103,11 @@ def exec_search():
         "request_options": {
             # Every search hit is returned as a simple string, e.g. "4HHB.A", with no additional metadata
             "results_verbosity": "compact",
-            # "return_all_hits": True,
-            "paginate": {
-                "start": 0,
-                "rows": 1000
-            }
+            "return_all_hits": True,
+            # "paginate": {
+            #     "start": 0,
+            #     "rows": 1000
+            # }
         }
     }
 
@@ -195,8 +195,8 @@ if __name__ == "__main__":
 
     # Find all protein chains with missing coordinates
     search_s_time = time.time()
-    # chain_ids = exec_search()
-    chain_ids = exec_search_library()
+    chain_ids = exec_search()
+    # chain_ids = exec_search_library()
     search_e_time = time.time()
     print(f"Search execution time: {search_e_time - search_s_time:.4f} seconds. Retrieved {len(chain_ids)} IDs")
 
@@ -204,8 +204,8 @@ if __name__ == "__main__":
     data_s_time = time.time()
     size = 5_000
     batches = [chain_ids[i:i + size] for i in range(0, len(chain_ids), size)]
-    # final_chains = exec_data(batches)
-    final_chains = exec_data_library(batches)
+    final_chains = exec_data(batches)
+    # final_chains = exec_data_library(batches)
     final_structures = list(set([s.split('.')[0] for s in final_chains]))
     data_e_time = time.time()
     print(f"Data execution time: {data_e_time - data_s_time:.4f} seconds")
