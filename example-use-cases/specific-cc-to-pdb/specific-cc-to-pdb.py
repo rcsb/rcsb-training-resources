@@ -1,13 +1,22 @@
-# These imports are from the RCSB API Python package.
-# You can install it using:
-#     pip install rcsb-api
+"""
+This function queries the RCSB Search API for specific chemical component IDs (CCIDs)
+and finds all PDB entries that contain each of them.
+It writes a mapping from CCID to corresponding PDB IDs to a TSV file.
+
+To run this script please use: python3 specifi-cc-to-pdb.py
+These imports are from the RCSB API Python package.
+You can install it using:
+    pip install rcsb-api
+"""
 from rcsbapi.search import AttributeQuery
 
 
-# This function queries the RCSB Search API for specific chemical component IDs (CCIDs)
-# and finds all PDB entries that contain each of them.
-# It writes a mapping from CCID to corresponding PDB IDs to a TSV file.
 def get_specific_cc_to_pdb_and_write_to_file(ccids):
+    """
+    This function queries the RCSB Search API for specific chemical component IDs (CCIDs)
+    and finds all PDB entries that contain each of them.
+    It writes a mapping from CCID to corresponding PDB IDs to a TSV file.
+    """
     chem_comp_to_pdb_map = {}
 
     # Iterate through each chemical component ID (e.g., "ATP", "GTP", etc.)
