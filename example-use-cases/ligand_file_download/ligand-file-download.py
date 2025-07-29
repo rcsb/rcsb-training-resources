@@ -1,15 +1,23 @@
-import os  # Standard library for interacting with the operating system; install using pip install os
-from copy import deepcopy  # Used to deeply copy data containers without shared references; install using pip install copy
+"""
+This function downloads and cleans mmCIF data for a specific ligand in a given PDB entry.
+It only retains the "chem_comp" and "atom_site" categories.
 
-# MarshalUtil is part of the RCSB PDB Python utilities package.
-# You can install it using:
-#     pip install rcsb.utils.io
+To run this script please use: python3 ligand-file-download.py
+MarshalUtil is part of the RCSB PDB Python utilities package.
+You can install it using: pip install rcsb.utils.io
+os is a standard library for interacting with the operating system; install using pip install os
+copy is used to deeply copy data containers without shared references; install using pip install copy
+"""
+import os
+from copy import deepcopy
 from rcsb.utils.io.MarshalUtil import MarshalUtil
 
 
-# This function downloads and cleans mmCIF data for a specific ligand in a given PDB entry.
-# It only retains the "chem_comp" and "atom_site" categories.
 def clean_and_collect_ligand_cif(ligand_id: str, entry_id: str, marshal_util: MarshalUtil):
+    """
+    This function downloads and cleans mmCIF data for a specific ligand in a given PDB entry.
+    It only retains the "chem_comp" and "atom_site" categories.
+    """
     # Construct URL for the mmCIF data specific to the ligand in the structure entry
     url = f"https://models.rcsb.org/v1/{entry_id}/atoms?label_comp_id={ligand_id}&encoding=cif&copy_all_categories=false&download=false"
     try:

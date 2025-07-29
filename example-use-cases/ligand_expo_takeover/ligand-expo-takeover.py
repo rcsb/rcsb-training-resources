@@ -1,14 +1,22 @@
-# These imports are from the RCSB API Python package.
-# You can install it using:
-#     pip install rcsb-api
+"""
+This function queries all PDB structures to extract chemical component IDs (ligands)
+from branched, polymer, and nonpolymer entities, and writes a mapping of
+chem_comp_id -> associated PDB IDs to a TSV file.
+
+To run this script please use: python3 ligand-expo-takeover.py
+These imports are from the RCSB API Python package.
+You can install it using: pip install rcsb-api
+"""
 from rcsbapi.data import DataQuery as Query
 from rcsbapi.data import ALL_STRUCTURES
 
 
-# This function queries all PDB structures to extract chemical component IDs (ligands)
-# from branched, polymer, and nonpolymer entities, and writes a mapping of
-# chem_comp_id -> associated PDB IDs to a TSV file.
 def get_all_chem_comp_ids_and_write_to_file():
+    """
+    This function queries all PDB structures to extract chemical component IDs (ligands)
+    from branched, polymer, and nonpolymer entities, and writes a mapping of
+    chem_comp_id -> associated PDB IDs to a TSV file.
+    """
     # Initialize the data query to retrieve relevant chemical component data
     query = Query(
         input_type="entries",              # Query all structure entries

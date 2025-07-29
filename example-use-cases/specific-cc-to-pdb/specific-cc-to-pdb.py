@@ -5,8 +5,7 @@ It writes a mapping from CCID to corresponding PDB IDs to a TSV file.
 
 To run this script please use: python3 specifi-cc-to-pdb.py
 These imports are from the RCSB API Python package.
-You can install it using:
-    pip install rcsb-api
+You can install it using: pip install rcsb-api
 """
 from rcsbapi.search import AttributeQuery
 
