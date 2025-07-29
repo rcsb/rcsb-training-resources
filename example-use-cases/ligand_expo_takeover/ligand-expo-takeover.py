@@ -1,15 +1,9 @@
 from rcsbapi.data import DataQuery as Query
 from rcsbapi.data import ALL_STRUCTURES
-from typing import Optional, List
 
 
-def get_entries_by_ccids_with_entity_check(ccids: Optional[List[str]] = None):
-    """
-    Retrieves PDB entries that contain specific chemical component IDs (ccids),
-    or all chemical components if ccids is None. Uses RCSB Search API with strict
-    nested entity filtering (polymer, branched, nonpolymer).
-    """
-
+def get_all_chem_comp_ids_and_write_to_file():
+    # Initialize the query
     query = Query(
         input_type="entries",
         input_ids=ALL_STRUCTURES,
@@ -21,6 +15,7 @@ def get_entries_by_ccids_with_entity_check(ccids: Optional[List[str]] = None):
         ]
     )
 
+    # Execute the query
     result = query.exec(progress_bar=True)
     entries = result.get("data", {}).get("entries", [])
 
@@ -29,7 +24,7 @@ def get_entries_by_ccids_with_entity_check(ccids: Optional[List[str]] = None):
     for entry in entries:
         pdb_id = entry.get("rcsb_id")
 
-        # Branched entities
+        # 1. Branched Entities
         branched_entities = entry.get("branched_entities")
         if branched_entities:
             for branched in branched_entities:
@@ -39,10 +34,10 @@ def get_entries_by_ccids_with_entity_check(ccids: Optional[List[str]] = None):
                         chem_comp = mono.get("chem_comp")
                         if chem_comp:
                             chem_id = chem_comp.get("id")
-                            if ccids is None or chem_id in ccids:
+                            if chem_id:
                                 chem_comp_to_pdb_map.setdefault(chem_id, set()).add(pdb_id)
 
-        # Polymer entities
+        # 2. Polymer Entities
         polymer_entities = entry.get("polymer_entities")
         if polymer_entities:
             for polymer in polymer_entities:
@@ -52,10 +47,10 @@ def get_entries_by_ccids_with_entity_check(ccids: Optional[List[str]] = None):
                         chem_comp = mono.get("chem_comp")
                         if chem_comp:
                             chem_id = chem_comp.get("id")
-                            if ccids is None or chem_id in ccids:
+                            if chem_id:
                                 chem_comp_to_pdb_map.setdefault(chem_id, set()).add(pdb_id)
 
-        # Nonpolymer entities
+        # 3. Nonpolymer Entities
         nonpolymer_entities = entry.get("nonpolymer_entities")
         if nonpolymer_entities:
             for nonpolymer in nonpolymer_entities:
@@ -64,24 +59,18 @@ def get_entries_by_ccids_with_entity_check(ccids: Optional[List[str]] = None):
                     chem_comp = nonpolymer_comp.get("chem_comp")
                     if chem_comp:
                         chem_id = chem_comp.get("id")
-                        if ccids is None or chem_id in ccids:
+                        if chem_id:
                             chem_comp_to_pdb_map.setdefault(chem_id, set()).add(pdb_id)
 
-    # Write results to file
-    output_file = "ccid-to-pdb.tsv"
+    # Write to file
+    output_file = "cc-to-pdb.tsv"
     with open(output_file, "w", encoding="utf-8") as f:
-        for chem_id, pdb_ids in sorted(chem_comp_to_pdb_map.items()):
-            f.write(f"{chem_id}\t{' '.join(sorted(pdb_ids))}\n")
+        for ccid, pdb_ids in chem_comp_to_pdb_map.items():
+            f.write(f"{ccid}\t{' '.join(sorted(pdb_ids))}\n")
 
     return output_file
 
 
-# Example usage:
-
-# Run with specific CCIDs
-# output_path = get_entries_by_ccids_with_entity_check(["ATP", "GTP", "FAD"])
-
-# Run for all CCIDs in all entries
-output_path = get_entries_by_ccids_with_entity_check()
-
+# Call the function
+output_path = get_all_chem_comp_ids_and_write_to_file()
 print(f"File saved at: {output_path}")
