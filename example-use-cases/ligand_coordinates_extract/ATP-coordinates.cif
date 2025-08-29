@@ -1,0 +1,283 @@
+data_1A0I
+
+_chem_comp.formula         "C10 H16 N5 O13 P3"
+_chem_comp.formula_weight  507.181
+_chem_comp.id              ATP
+_chem_comp.mon_nstd_flag   .
+_chem_comp.name            "ADENOSINE-5'-TRIPHOSPHATE"
+_chem_comp.type            non-polymer
+_chem_comp.pdbx_synonyms   ?
+#
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_comp_id
+_atom_site.label_seq_id
+_atom_site.label_alt_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.B_iso_or_equiv
+_atom_site.pdbx_formal_charge
+_atom_site.auth_atom_id
+_atom_site.auth_comp_id
+_atom_site.auth_seq_id
+_atom_site.auth_asym_id
+_atom_site.pdbx_PDB_model_num
+HETATM   1  P  PG     ATP  .  .  .  B  2  -1.463  -18.515  50.822  1   98.59  ?  PG     ATP  1  A  1  
+HETATM   2  O  O1G    ATP  .  .  .  B  2  -1.209  -18.043   49.44  1  102.11  ?  O1G    ATP  1  A  1  
+HETATM   3  O  O2G    ATP  .  .  .  B  2   -1.53  -17.275  51.634  1  105.26  ?  O2G    ATP  1  A  1  
+HETATM   4  O  O3G    ATP  .  .  .  B  2  -2.851  -19.024  50.864  1   97.69  ?  O3G    ATP  1  A  1  
+HETATM   5  P  PB     ATP  .  .  .  B  2   0.275  -19.563  52.851  1    84.1  ?  PB     ATP  1  A  1  
+HETATM   6  O  O1B    ATP  .  .  .  B  2  -0.656  -20.145  53.868  1   85.63  ?  O1B    ATP  1  A  1  
+HETATM   7  O  O2B    ATP  .  .  .  B  2   1.519    -20.4  52.967  1   81.91  ?  O2B    ATP  1  A  1  
+HETATM   8  O  O3B    ATP  .  .  .  B  2  -0.305  -19.507  51.354  1   90.38  ?  O3B    ATP  1  A  1  
+HETATM   9  P  PA     ATP  .  .  .  B  2    1.93  -17.465  53.389  1   48.88  ?  PA     ATP  1  A  1  
+HETATM  10  O  O1A    ATP  .  .  .  B  2   2.538  -17.678  52.057  1   65.01  ?  O1A    ATP  1  A  1  
+HETATM  11  O  O2A    ATP  .  .  .  B  2    1.65  -15.992  53.435  1   52.41  ?  O2A    ATP  1  A  1  
+HETATM  12  O  O3A    ATP  .  .  .  B  2   0.626  -18.197  53.373  1   77.63  ?  O3A    ATP  1  A  1  
+HETATM  13  O  "O5'"  ATP  .  .  .  B  2   2.918  -17.883  54.594  1   59.23  ?  "O5'"  ATP  1  A  1  
+HETATM  14  C  "C5'"  ATP  .  .  .  B  2   2.624  -17.471  55.933  1   44.99  ?  "C5'"  ATP  1  A  1  
+HETATM  15  C  "C4'"  ATP  .  .  .  B  2   2.167  -18.701  56.712  1   38.54  ?  "C4'"  ATP  1  A  1  
+HETATM  16  O  "O4'"  ATP  .  .  .  B  2   2.963  -19.868  56.491  1    35.8  ?  "O4'"  ATP  1  A  1  
+HETATM  17  C  "C3'"  ATP  .  .  .  B  2   1.267  -18.757   57.94  1   45.15  ?  "C3'"  ATP  1  A  1  
+HETATM  18  O  "O3'"  ATP  .  .  .  B  2   -0.03  -18.129  57.926  1   39.45  ?  "O3'"  ATP  1  A  1  
+HETATM  19  C  "C2'"  ATP  .  .  .  B  2    1.32  -20.234  58.307  1   39.54  ?  "C2'"  ATP  1  A  1  
+HETATM  20  O  "O2'"  ATP  .  .  .  B  2   0.062  -20.869  58.195  1   37.25  ?  "O2'"  ATP  1  A  1  
+HETATM  21  C  "C1'"  ATP  .  .  .  B  2   2.598  -20.708  57.602  1   25.77  ?  "C1'"  ATP  1  A  1  
+HETATM  22  N  N9     ATP  .  .  .  B  2   3.634  -21.568   58.23  1   17.06  ?  N9     ATP  1  A  1  
+HETATM  23  C  C8     ATP  .  .  .  B  2   3.952  -22.907  58.031  1    7.03  ?  C8     ATP  1  A  1  
+HETATM  24  N  N7     ATP  .  .  .  B  2   5.016  -23.257  58.864  1    2.54  ?  N7     ATP  1  A  1  
+HETATM  25  C  C5     ATP  .  .  .  B  2   5.275  -22.122   59.58  1   14.74  ?  C5     ATP  1  A  1  
+HETATM  26  C  C6     ATP  .  .  .  B  2   6.254  -22.179  60.526  1   25.29  ?  C6     ATP  1  A  1  
+HETATM  27  N  N6     ATP  .  .  .  B  2   7.051  -23.378  60.801  1   32.51  ?  N6     ATP  1  A  1  
+HETATM  28  N  N1     ATP  .  .  .  B  2   6.427   -21.01  61.232  1   17.88  ?  N1     ATP  1  A  1  
+HETATM  29  C  C2     ATP  .  .  .  B  2   5.589  -19.957  60.882  1   20.53  ?  C2     ATP  1  A  1  
+HETATM  30  N  N3     ATP  .  .  .  B  2   4.604  -19.941  59.916  1   11.31  ?  N3     ATP  1  A  1  
+HETATM  31  C  C4     ATP  .  .  .  B  2   4.461  -21.121  59.223  1   19.88  ?  C4     ATP  1  A  1  
+##
+data_1A49
+
+_chem_comp.formula         "C10 H16 N5 O13 P3"
+_chem_comp.formula_weight  507.181
+_chem_comp.id              ATP
+_chem_comp.mon_nstd_flag   .
+_chem_comp.name            "ADENOSINE-5'-TRIPHOSPHATE"
+_chem_comp.type            non-polymer
+_chem_comp.pdbx_synonyms   ?
+#
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_comp_id
+_atom_site.label_seq_id
+_atom_site.label_alt_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.B_iso_or_equiv
+_atom_site.pdbx_formal_charge
+_atom_site.auth_atom_id
+_atom_site.auth_comp_id
+_atom_site.auth_seq_id
+_atom_site.auth_asym_id
+_atom_site.pdbx_PDB_model_num
+HETATM    1  P  PG     ATP  .  .  .  M   5   10.49   64.745  11.085  1  39.51  ?  PG     ATP   535  A  1  
+HETATM    2  O  O1G    ATP  .  .  .  M   5  10.483   65.308  12.538  1   27.7  ?  O1G    ATP   535  A  1  
+HETATM    3  O  O2G    ATP  .  .  .  M   5   11.36   65.666  10.354  1  33.69  ?  O2G    ATP   535  A  1  
+HETATM    4  O  O3G    ATP  .  .  .  M   5   9.198   64.634  10.539  1  20.96  ?  O3G    ATP   535  A  1  
+HETATM    5  P  PB     ATP  .  .  .  M   5   12.34   62.703  11.871  1  31.86  ?  PB     ATP   535  A  1  
+HETATM    6  O  O1B    ATP  .  .  .  M   5  12.903   61.666  11.026  1  32.02  ?  O1B    ATP   535  A  1  
+HETATM    7  O  O2B    ATP  .  .  .  M   5  13.525   63.338  12.436  1  28.36  ?  O2B    ATP   535  A  1  
+HETATM    8  O  O3B    ATP  .  .  .  M   5  11.262   63.351  11.071  1  20.49  ?  O3B    ATP   535  A  1  
+HETATM    9  P  PA     ATP  .  .  .  M   5  11.164   62.584  14.456  1  36.84  ?  PA     ATP   535  A  1  
+HETATM   10  O  O1A    ATP  .  .  .  M   5  11.878   63.886  14.741  1  27.95  ?  O1A    ATP   535  A  1  
+HETATM   11  O  O2A    ATP  .  .  .  M   5   9.673   62.512  14.701  1  19.95  ?  O2A    ATP   535  A  1  
+HETATM   12  O  O3A    ATP  .  .  .  M   5  11.527   62.003  13.084  1  37.31  ?  O3A    ATP   535  A  1  
+HETATM   13  O  "O5'"  ATP  .  .  .  M   5   11.91   61.427  15.307  1  30.58  ?  "O5'"  ATP   535  A  1  
+HETATM   14  C  "C5'"  ATP  .  .  .  M   5  13.345   61.409  15.223  1  41.63  ?  "C5'"  ATP   535  A  1  
+HETATM   15  C  "C4'"  ATP  .  .  .  M   5   13.79    59.96  15.028  1  93.45  ?  "C4'"  ATP   535  A  1  
+HETATM   16  O  "O4'"  ATP  .  .  .  M   5  13.148   59.131  16.033  1  47.96  ?  "O4'"  ATP   535  A  1  
+HETATM   17  C  "C3'"  ATP  .  .  .  M   5  13.319   59.373  13.709  1  64.57  ?  "C3'"  ATP   535  A  1  
+HETATM   18  O  "O3'"  ATP  .  .  .  M   5  14.256   59.698  12.667  1  49.48  ?  "O3'"  ATP   535  A  1  
+HETATM   19  C  "C2'"  ATP  .  .  .  M   5  13.262   57.889  14.055  1  35.09  ?  "C2'"  ATP   535  A  1  
+HETATM   20  O  "O2'"  ATP  .  .  .  M   5    14.6    57.34  14.051  1  47.83  ?  "O2'"  ATP   535  A  1  
+HETATM   21  C  "C1'"  ATP  .  .  .  M   5  12.751   57.909  15.456  1   27.2  ?  "C1'"  ATP   535  A  1  
+HETATM   22  N  N9     ATP  .  .  .  M   5  11.305   57.756  15.538  1  24.16  ?  N9     ATP   535  A  1  
+HETATM   23  C  C8     ATP  .  .  .  M   5  10.339    58.71  15.736  1  20.24  ?  C8     ATP   535  A  1  
+HETATM   24  N  N7     ATP  .  .  .  M   5   9.092   58.192  15.794  1  25.53  ?  N7     ATP   535  A  1  
+HETATM   25  C  C5     ATP  .  .  .  M   5   9.324   56.821   15.68  1  28.99  ?  C5     ATP   535  A  1  
+HETATM   26  C  C6     ATP  .  .  .  M   5   8.425   55.726  15.514  1  17.75  ?  C6     ATP   535  A  1  
+HETATM   27  N  N6     ATP  .  .  .  M   5   7.081    55.78   15.54  1  56.22  ?  N6     ATP   535  A  1  
+HETATM   28  N  N1     ATP  .  .  .  M   5   8.968   54.519  15.179  1  35.78  ?  N1     ATP   535  A  1  
+HETATM   29  C  C2     ATP  .  .  .  M   5  10.369   54.396  15.115  1   26.9  ?  C2     ATP   535  A  1  
+HETATM   30  N  N3     ATP  .  .  .  M   5  11.262   55.322  15.265  1  63.63  ?  N3     ATP   535  A  1  
+HETATM   31  C  C4     ATP  .  .  .  M   5  10.667   56.554  15.475  1  31.61  ?  C4     ATP   535  A  1  
+HETATM   32  P  PG     ATP  .  .  .  U   5  37.512   74.785  31.718  1  46.44  ?  PG     ATP  1735  C  1  
+HETATM   33  O  O1G    ATP  .  .  .  U   5  36.958   75.372  30.382  1  29.45  ?  O1G    ATP  1735  C  1  
+HETATM   34  O  O2G    ATP  .  .  .  U   5  36.359   74.862  32.619  1  26.97  ?  O2G    ATP  1735  C  1  
+HETATM   35  O  O3G    ATP  .  .  .  U   5  38.589   75.579  32.127  1  16.96  ?  O3G    ATP  1735  C  1  
+HETATM   36  P  PB     ATP  .  .  .  U   5  37.795   72.282  30.458  1  43.34  ?  PB     ATP  1735  C  1  
+HETATM   37  O  O1B    ATP  .  .  .  U   5  38.243   70.975  30.981  1  45.14  ?  O1B    ATP  1735  C  1  
+HETATM   38  O  O2B    ATP  .  .  .  U   5  36.289   72.271  30.113  1  37.21  ?  O2B    ATP  1735  C  1  
+HETATM   39  O  O3B    ATP  .  .  .  U   5  37.927   73.163  31.555  1  34.95  ?  O3B    ATP  1735  C  1  
+HETATM   40  P  PA     ATP  .  .  .  U   5  38.541   73.371  27.935  1  35.39  ?  PA     ATP  1735  C  1  
+HETATM   41  O  O1A    ATP  .  .  .  U   5  37.185   73.928  27.811  1  19.61  ?  O1A    ATP  1735  C  1  
+HETATM   42  O  O2A    ATP  .  .  .  U   5  39.609   74.347  27.726  1  21.58  ?  O2A    ATP  1735  C  1  
+HETATM   43  O  O3A    ATP  .  .  .  U   5  38.752    72.62  29.272  1  42.17  ?  O3A    ATP  1735  C  1  
+HETATM   44  O  "O5'"  ATP  .  .  .  U   5  38.781   72.203  26.819  1  25.45  ?  "O5'"  ATP  1735  C  1  
+HETATM   45  C  "C5'"  ATP  .  .  .  U   5  37.836   71.154  26.723  1  33.53  ?  "C5'"  ATP  1735  C  1  
+HETATM   46  C  "C4'"  ATP  .  .  .  U   5  38.633   69.906  26.749  1  25.74  ?  "C4'"  ATP  1735  C  1  
+HETATM   47  O  "O4'"  ATP  .  .  .  U   5  39.627   70.088  25.742  1  21.47  ?  "O4'"  ATP  1735  C  1  
+HETATM   48  C  "C3'"  ATP  .  .  .  U   5  39.467   69.747  28.014  1  34.55  ?  "C3'"  ATP  1735  C  1  
+HETATM   49  O  "O3'"  ATP  .  .  .  U   5  38.727   69.119  29.083  1  43.86  ?  "O3'"  ATP  1735  C  1  
+HETATM   50  C  "C2'"  ATP  .  .  .  U   5  40.595   68.855  27.431  1  54.54  ?  "C2'"  ATP  1735  C  1  
+HETATM   51  O  "O2'"  ATP  .  .  .  U   5  40.259    67.47  27.324  1   49.5  ?  "O2'"  ATP  1735  C  1  
+HETATM   52  C  "C1'"  ATP  .  .  .  U   5  40.771   69.429  26.059  1  31.35  ?  "C1'"  ATP  1735  C  1  
+HETATM   53  N  N9     ATP  .  .  .  U   5  41.871   70.365  26.043  1   28.3  ?  N9     ATP  1735  C  1  
+HETATM   54  C  C8     ATP  .  .  .  U   5  41.835   71.665  26.306  1  34.87  ?  C8     ATP  1735  C  1  
+HETATM   55  N  N7     ATP  .  .  .  U   5  43.086   72.218  26.462  1  41.82  ?  N7     ATP  1735  C  1  
+HETATM   56  C  C5     ATP  .  .  .  U   5  43.934   71.139  26.311  1  36.72  ?  C5     ATP  1735  C  1  
+HETATM   57  C  C6     ATP  .  .  .  U   5   45.36   71.058  26.311  1  46.66  ?  C6     ATP  1735  C  1  
+HETATM   58  N  N6     ATP  .  .  .  U   5  46.212    72.08  26.534  1   43.6  ?  N6     ATP  1735  C  1  
+HETATM   59  N  N1     ATP  .  .  .  U   5  45.904   69.853  26.115  1  34.54  ?  N1     ATP  1735  C  1  
+HETATM   60  C  C2     ATP  .  .  .  U   5   45.05   68.811  25.757  1  39.64  ?  C2     ATP  1735  C  1  
+HETATM   61  N  N3     ATP  .  .  .  U   5  43.733   68.784  25.737  1  54.82  ?  N3     ATP  1735  C  1  
+HETATM   62  C  C4     ATP  .  .  .  U   5  43.229    70.01  25.957  1  41.37  ?  C4     ATP  1735  C  1  
+HETATM   63  P  PG     ATP  .  .  .  Z   5  -3.834  141.085   11.27  1  26.68  ?  PG     ATP  2335  D  1  
+HETATM   64  O  O1G    ATP  .  .  .  Z   5  -2.849  140.773  12.287  1   17.4  ?  O1G    ATP  2335  D  1  
+HETATM   65  O  O2G    ATP  .  .  .  Z   5  -4.894  140.078  11.278  1  15.45  ?  O2G    ATP  2335  D  1  
+HETATM   66  O  O3G    ATP  .  .  .  Z   5    -3.1  141.101  10.096  1  31.21  ?  O3G    ATP  2335  D  1  
+HETATM   67  P  PB     ATP  .  .  .  Z   5  -4.663  143.424  12.769  1  31.02  ?  PB     ATP  2335  D  1  
+HETATM   68  O  O1B    ATP  .  .  .  Z   5  -5.774   144.39  12.573  1  13.21  ?  O1B    ATP  2335  D  1  
+HETATM   69  O  O2B    ATP  .  .  .  Z   5  -5.052  142.411  13.779  1  28.92  ?  O2B    ATP  2335  D  1  
+HETATM   70  O  O3B    ATP  .  .  .  Z   5  -4.681    142.5  11.618  1   26.7  ?  O3B    ATP  2335  D  1  
+HETATM   71  P  PA     ATP  .  .  .  Z   5  -2.064  143.823  13.967  1   25.7  ?  PA     ATP  2335  D  1  
+HETATM   72  O  O1A    ATP  .  .  .  Z   5  -2.118  142.484  14.705  1  22.67  ?  O1A    ATP  2335  D  1  
+HETATM   73  O  O2A    ATP  .  .  .  Z   5  -0.817  143.934  13.243  1   17.4  ?  O2A    ATP  2335  D  1  
+HETATM   74  O  O3A    ATP  .  .  .  Z   5  -3.317  144.193  13.133  1  13.44  ?  O3A    ATP  2335  D  1  
+HETATM   75  O  "O5'"  ATP  .  .  .  Z   5  -2.181  145.115  15.041  1  19.41  ?  "O5'"  ATP  2335  D  1  
+HETATM   76  C  "C5'"  ATP  .  .  .  Z   5  -3.268  145.185  15.963  1  37.29  ?  "C5'"  ATP  2335  D  1  
+HETATM   77  C  "C4'"  ATP  .  .  .  Z   5  -3.885  146.541  15.889  1   20.8  ?  "C4'"  ATP  2335  D  1  
+HETATM   78  O  "O4'"  ATP  .  .  .  Z   5  -2.867  147.521  16.128  1  38.74  ?  "O4'"  ATP  2335  D  1  
+HETATM   79  C  "C3'"  ATP  .  .  .  Z   5   -4.43   146.89  14.534  1  17.28  ?  "C3'"  ATP  2335  D  1  
+HETATM   80  O  "O3'"  ATP  .  .  .  Z   5  -5.789  146.459  14.454  1  16.84  ?  "O3'"  ATP  2335  D  1  
+HETATM   81  C  "C2'"  ATP  .  .  .  Z   5  -4.344  148.385  14.636  1  17.53  ?  "C2'"  ATP  2335  D  1  
+HETATM   82  O  "O2'"  ATP  .  .  .  Z   5  -5.352  148.859  15.568  1  24.79  ?  "O2'"  ATP  2335  D  1  
+HETATM   83  C  "C1'"  ATP  .  .  .  Z   5  -3.036  148.583  15.254  1  10.08  ?  "C1'"  ATP  2335  D  1  
+HETATM   84  N  N9     ATP  .  .  .  Z   5  -1.879  148.738   14.31  1  32.42  ?  N9     ATP  2335  D  1  
+HETATM   85  C  C8     ATP  .  .  .  Z   5  -0.933  147.822  13.898  1  17.96  ?  C8     ATP  2335  D  1  
+HETATM   86  N  N7     ATP  .  .  .  Z   5  -0.015  148.324  13.084  1  23.85  ?  N7     ATP  2335  D  1  
+HETATM   87  C  C5     ATP  .  .  .  Z   5  -0.402  149.654  12.942  1  51.28  ?  C5     ATP  2335  D  1  
+HETATM   88  C  C6     ATP  .  .  .  Z   5   0.151  150.724  12.176  1  24.09  ?  C6     ATP  2335  D  1  
+HETATM   89  N  N6     ATP  .  .  .  Z   5   1.246   150.63   11.42  1  42.77  ?  N6     ATP  2335  D  1  
+HETATM   90  N  N1     ATP  .  .  .  Z   5  -0.443  151.951  12.304  1   18.1  ?  N1     ATP  2335  D  1  
+HETATM   91  C  C2     ATP  .  .  .  Z   5  -1.574  152.072   13.07  1  13.98  ?  C2     ATP  2335  D  1  
+HETATM   92  N  N3     ATP  .  .  .  Z   5  -2.145  151.164  13.831  1  44.44  ?  N3     ATP  2335  D  1  
+HETATM   93  C  C4     ATP  .  .  .  Z   5  -1.522  149.936  13.699  1  35.57  ?  C4     ATP  2335  D  1  
+HETATM   94  P  PG     ATP  .  .  .  EA  5    50.4   238.77  59.578  1  28.71  ?  PG     ATP  3535  E  1  
+HETATM   95  O  O1G    ATP  .  .  .  EA  5  49.597  238.235  58.425  1  17.01  ?  O1G    ATP  3535  E  1  
+HETATM   96  O  O2G    ATP  .  .  .  EA  5  51.781  238.397   59.42  1  11.09  ?  O2G    ATP  3535  E  1  
+HETATM   97  O  O3G    ATP  .  .  .  EA  5  49.886  238.235  60.713  1  23.03  ?  O3G    ATP  3535  E  1  
+HETATM   98  P  PB     ATP  .  .  .  EA  5   50.03  241.549  58.651  1  19.87  ?  PB     ATP  3535  E  1  
+HETATM   99  O  O1B    ATP  .  .  .  EA  5  50.615  242.809  59.138  1   20.9  ?  O1B    ATP  3535  E  1  
+HETATM  100  O  O2B    ATP  .  .  .  EA  5  50.616    241.2  57.351  1  21.14  ?  O2B    ATP  3535  E  1  
+HETATM  101  O  O3B    ATP  .  .  .  EA  5  50.358   240.46  59.619  1  35.11  ?  O3B    ATP  3535  E  1  
+HETATM  102  P  PA     ATP  .  .  .  EA  5  47.474  240.919  57.523  1  29.98  ?  PA     ATP  3535  E  1  
+HETATM  103  O  O1A    ATP  .  .  .  EA  5  48.156  240.041  56.488  1  18.53  ?  O1A    ATP  3535  E  1  
+HETATM  104  O  O2A    ATP  .  .  .  EA  5  46.332  240.268   58.18  1  21.14  ?  O2A    ATP  3535  E  1  
+HETATM  105  O  O3A    ATP  .  .  .  EA  5  48.436  241.621  58.517  1  22.21  ?  O3A    ATP  3535  E  1  
+HETATM  106  O  "O5'"  ATP  .  .  .  EA  5  46.878  242.293   56.75  1  21.23  ?  "O5'"  ATP  3535  E  1  
+HETATM  107  C  "C5'"  ATP  .  .  .  EA  5  47.732  242.989  55.918  1   7.46  ?  "C5'"  ATP  3535  E  1  
+HETATM  108  C  "C4'"  ATP  .  .  .  EA  5  47.602  244.409  56.293  1  15.54  ?  "C4'"  ATP  3535  E  1  
+HETATM  109  O  "O4'"  ATP  .  .  .  EA  5  46.185  244.766  56.245  1  19.55  ?  "O4'"  ATP  3535  E  1  
+HETATM  110  C  "C3'"  ATP  .  .  .  EA  5   48.01  244.681  57.744  1  15.08  ?  "C3'"  ATP  3535  E  1  
+HETATM  111  O  "O3'"  ATP  .  .  .  EA  5  49.446  244.713  57.912  1  22.13  ?  "O3'"  ATP  3535  E  1  
+HETATM  112  C  "C2'"  ATP  .  .  .  EA  5  47.241  245.962   57.99  1  21.29  ?  "C2'"  ATP  3535  E  1  
+HETATM  113  O  "O2'"  ATP  .  .  .  EA  5  47.876  247.106  57.415  1  25.27  ?  "O2'"  ATP  3535  E  1  
+HETATM  114  C  "C1'"  ATP  .  .  .  EA  5  45.915  245.669  57.317  1  24.64  ?  "C1'"  ATP  3535  E  1  
+HETATM  115  N  N9     ATP  .  .  .  EA  5  44.972   245.08  58.299  1  16.01  ?  N9     ATP  3535  E  1  
+HETATM  116  C  C8     ATP  .  .  .  EA  5  44.571  243.798  58.469  1  28.31  ?  C8     ATP  3535  E  1  
+HETATM  117  N  N7     ATP  .  .  .  EA  5  43.678  243.648  59.458  1  31.85  ?  N7     ATP  3535  E  1  
+HETATM  118  C  C5     ATP  .  .  .  EA  5  43.541  244.911  59.957  1  21.75  ?  C5     ATP  3535  E  1  
+HETATM  119  C  C6     ATP  .  .  .  EA  5  42.711  245.406  60.955  1  45.76  ?  C6     ATP  3535  E  1  
+HETATM  120  N  N6     ATP  .  .  .  EA  5  41.886  244.666   61.69  1  20.97  ?  N6     ATP  3535  E  1  
+HETATM  121  N  N1     ATP  .  .  .  EA  5  42.757  246.745  61.155  1  31.23  ?  N1     ATP  3535  E  1  
+HETATM  122  C  C2     ATP  .  .  .  EA  5  43.633  247.518  60.425  1   27.7  ?  C2     ATP  3535  E  1  
+HETATM  123  N  N3     ATP  .  .  .  EA  5  44.442  247.141  59.494  1  39.54  ?  N3     ATP  3535  E  1  
+HETATM  124  C  C4     ATP  .  .  .  EA  5  44.327  245.805  59.274  1  25.07  ?  C4     ATP  3535  E  1  
+HETATM  125  P  PG     ATP  .  .  .  JA  5  39.551  167.016  25.287  1  58.44  ?  PG     ATP  4135  F  1  
+HETATM  126  O  O1G    ATP  .  .  .  JA  5  40.017  167.604  26.583  1  45.26  ?  O1G    ATP  4135  F  1  
+HETATM  127  O  O2G    ATP  .  .  .  JA  5  40.478  167.601  24.257  1   20.6  ?  O2G    ATP  4135  F  1  
+HETATM  128  O  O3G    ATP  .  .  .  JA  5  38.224  167.466  25.048  1  27.25  ?  O3G    ATP  4135  F  1  
+HETATM  129  P  PB     ATP  .  .  .  JA  5  40.548  164.277  25.774  1  47.41  ?  PB     ATP  4135  F  1  
+HETATM  130  O  O1B    ATP  .  .  .  JA  5  40.376  163.194  24.777  1  99.35  ?  O1B    ATP  4135  F  1  
+HETATM  131  O  O2B    ATP  .  .  .  JA  5  41.984  164.666  25.798  1  28.29  ?  O2B    ATP  4135  F  1  
+HETATM  132  O  O3B    ATP  .  .  .  JA  5  39.652  165.321  25.257  1  44.17  ?  O3B    ATP  4135  F  1  
+HETATM  133  P  PA     ATP  .  .  .  JA  5  39.918  164.382   28.58  1   43.2  ?  PA     ATP  4135  F  1  
+HETATM  134  O  O1A    ATP  .  .  .  JA  5  40.788  165.603  28.829  1  32.05  ?  O1A    ATP  4135  F  1  
+HETATM  135  O  O2A    ATP  .  .  .  JA  5  38.516  164.744  28.839  1  35.47  ?  O2A    ATP  4135  F  1  
+HETATM  136  O  O3A    ATP  .  .  .  JA  5  40.112  163.709  27.221  1    100  ?  O3A    ATP  4135  F  1  
+HETATM  137  O  "O5'"  ATP  .  .  .  JA  5   40.42  163.054  29.594  1  83.32  ?  "O5'"  ATP  4135  F  1  
+HETATM  138  C  "C5'"  ATP  .  .  .  JA  5  41.731  162.482  29.404  1  51.11  ?  "C5'"  ATP  4135  F  1  
+HETATM  139  C  "C4'"  ATP  .  .  .  JA  5  41.627  160.983  29.183  1  98.92  ?  "C4'"  ATP  4135  F  1  
+HETATM  140  O  "O4'"  ATP  .  .  .  JA  5  40.701  160.437  30.182  1  95.06  ?  "O4'"  ATP  4135  F  1  
+HETATM  141  C  "C3'"  ATP  .  .  .  JA  5  41.068  160.548  27.813  1   51.7  ?  "C3'"  ATP  4135  F  1  
+HETATM  142  O  "O3'"  ATP  .  .  .  JA  5  42.085  160.517  26.768  1    100  ?  "O3'"  ATP  4135  F  1  
+HETATM  143  C  "C2'"  ATP  .  .  .  JA  5   40.47  159.196  28.184  1   78.6  ?  "C2'"  ATP  4135  F  1  
+HETATM  144  O  "O2'"  ATP  .  .  .  JA  5  41.497  158.163  28.134  1    100  ?  "O2'"  ATP  4135  F  1  
+HETATM  145  C  "C1'"  ATP  .  .  .  JA  5  39.917  159.424  29.623  1  38.99  ?  "C1'"  ATP  4135  F  1  
+HETATM  146  N  N9     ATP  .  .  .  JA  5  38.438  159.785   29.71  1  37.68  ?  N9     ATP  4135  F  1  
+HETATM  147  C  C8     ATP  .  .  .  JA  5  37.843  161.052  29.734  1  34.93  ?  C8     ATP  4135  F  1  
+HETATM  148  N  N7     ATP  .  .  .  JA  5   36.53  161.036  29.857  1  67.76  ?  N7     ATP  4135  F  1  
+HETATM  149  C  C5     ATP  .  .  .  JA  5  36.204  159.685  30.023  1   66.9  ?  C5     ATP  4135  F  1  
+HETATM  150  C  C6     ATP  .  .  .  JA  5  34.958  159.078  30.114  1  90.34  ?  C6     ATP  4135  F  1  
+HETATM  151  N  N6     ATP  .  .  .  JA  5  33.781  159.844  30.232  1  32.86  ?  N6     ATP  4135  F  1  
+HETATM  152  N  N1     ATP  .  .  .  JA  5  34.977  157.705  30.134  1  86.07  ?  N1     ATP  4135  F  1  
+HETATM  153  C  C2     ATP  .  .  .  JA  5  36.201  157.035  29.936  1  76.35  ?  C2     ATP  4135  F  1  
+HETATM  154  N  N3     ATP  .  .  .  JA  5  37.388  157.513  29.792  1  53.12  ?  N3     ATP  4135  F  1  
+HETATM  155  C  C4     ATP  .  .  .  JA  5   37.36   158.88  29.786  1    100  ?  C4     ATP  4135  F  1  
+HETATM  156  P  PG     ATP  .  .  .  OA  5  55.867   243.09  24.859  1  30.83  ?  PG     ATP  4735  G  1  
+HETATM  157  O  O1G    ATP  .  .  .  OA  5  56.569  242.359  25.878  1  26.87  ?  O1G    ATP  4735  G  1  
+HETATM  158  O  O2G    ATP  .  .  .  OA  5  54.544  242.449  24.641  1   7.14  ?  O2G    ATP  4735  G  1  
+HETATM  159  O  O3G    ATP  .  .  .  OA  5  56.658  243.026  23.721  1  26.03  ?  O3G    ATP  4735  G  1  
+HETATM  160  P  PB     ATP  .  .  .  OA  5   56.04  245.369  26.466  1  40.73  ?  PB     ATP  4735  G  1  
+HETATM  161  O  O1B    ATP  .  .  .  OA  5  55.497  246.734   26.25  1  33.97  ?  O1B    ATP  4735  G  1  
+HETATM  162  O  O2B    ATP  .  .  .  OA  5  55.531  244.771  27.722  1  35.93  ?  O2B    ATP  4735  G  1  
+HETATM  163  O  O3B    ATP  .  .  .  OA  5  55.584  244.602  25.322  1  30.29  ?  O3B    ATP  4735  G  1  
+HETATM  164  P  PA     ATP  .  .  .  OA  5  58.592  244.707  27.423  1  39.77  ?  PA     ATP  4735  G  1  
+HETATM  165  O  O1A    ATP  .  .  .  OA  5  57.914  243.555  28.182  1  16.58  ?  O1A    ATP  4735  G  1  
+HETATM  166  O  O2A    ATP  .  .  .  OA  5  59.744  244.274  26.657  1  26.98  ?  O2A    ATP  4735  G  1  
+HETATM  167  O  O3A    ATP  .  .  .  OA  5  57.604  245.391  26.496  1  21.68  ?  O3A    ATP  4735  G  1  
+HETATM  168  O  "O5'"  ATP  .  .  .  OA  5  59.252  245.723  28.553  1  31.86  ?  "O5'"  ATP  4735  G  1  
+HETATM  169  C  "C5'"  ATP  .  .  .  OA  5    58.4  246.283  29.499  1   36.2  ?  "C5'"  ATP  4735  G  1  
+HETATM  170  C  "C4'"  ATP  .  .  .  OA  5  58.492  247.805  29.382  1  22.79  ?  "C4'"  ATP  4735  G  1  
+HETATM  171  O  "O4'"  ATP  .  .  .  OA  5  59.878  248.173  29.402  1  23.71  ?  "O4'"  ATP  4735  G  1  
+HETATM  172  C  "C3'"  ATP  .  .  .  OA  5  57.997  248.368  28.083  1  14.98  ?  "C3'"  ATP  4735  G  1  
+HETATM  173  O  "O3'"  ATP  .  .  .  OA  5  56.573   248.47  28.058  1  27.83  ?  "O3'"  ATP  4735  G  1  
+HETATM  174  C  "C2'"  ATP  .  .  .  OA  5   58.72  249.656  28.073  1  23.93  ?  "C2'"  ATP  4735  G  1  
+HETATM  175  O  "O2'"  ATP  .  .  .  OA  5  58.013  250.628  28.856  1  34.24  ?  "O2'"  ATP  4735  G  1  
+HETATM  176  C  "C1'"  ATP  .  .  .  OA  5  60.045  249.306  28.672  1  33.99  ?  "C1'"  ATP  4735  G  1  
+HETATM  177  N  N9     ATP  .  .  .  OA  5  60.976  249.029   27.67  1   41.3  ?  N9     ATP  4735  G  1  
+HETATM  178  C  C8     ATP  .  .  .  OA  5  61.344  247.844   27.13  1  41.89  ?  C8     ATP  4735  G  1  
+HETATM  179  N  N7     ATP  .  .  .  OA  5  62.203  247.995  26.113  1  54.37  ?  N7     ATP  4735  G  1  
+HETATM  180  C  C5     ATP  .  .  .  OA  5  62.366  249.353  26.022  1   46.4  ?  C5     ATP  4735  G  1  
+HETATM  181  C  C6     ATP  .  .  .  OA  5  63.115  250.182  25.142  1   44.1  ?  C6     ATP  4735  G  1  
+HETATM  182  N  N6     ATP  .  .  .  OA  5  63.909  249.808  24.123  1  19.41  ?  N6     ATP  4735  G  1  
+HETATM  183  N  N1     ATP  .  .  .  OA  5  63.082  251.497  25.406  1  44.89  ?  N1     ATP  4735  G  1  
+HETATM  184  C  C2     ATP  .  .  .  OA  5  62.288  251.963  26.422  1  34.84  ?  C2     ATP  4735  G  1  
+HETATM  185  N  N3     ATP  .  .  .  OA  5   61.54  251.293  27.253  1   39.2  ?  N3     ATP  4735  G  1  
+HETATM  186  C  C4     ATP  .  .  .  OA  5  61.633  249.985  27.011  1  48.35  ?  C4     ATP  4735  G  1  
+##
