@@ -64,7 +64,18 @@ class LigandCoordinatesExtract:
             # Read the result into a file-like object
             file_like = io.StringIO(result)
             pR = PdbxReader(file_like)
-            pR.read(self.data_container_list, ["chem_comp", "atom_site"])
+
+            # update data container header
+            temp_data_container = []
+            pR.read(temp_data_container, ["chem_comp", "atom_site"])
+            for dc in temp_data_container:
+                dc.setName(dc.getName() + "_" + ccd_id.upper())
+
+            # append to the class data container
+            self.data_container_list.extend(temp_data_container)
+
+            return True
+
         except Exception as e:
             logger.error(f"Failed for {ccd_id} in {pdb_id}: {e}")
             return None
