@@ -1,7 +1,11 @@
 """
-This script extracts the coordinate data for a given list of chemical component (ligand) IDs
-as present in PDB entry files. The extracted mmCIF data is cleaned to retain only the
-"chem_comp" and "atom_site" categories.
+This script extracts the coordinate data for a given list of chemical component (ligand) IDs as present in PDB
+entry files. The extracted mmCIF data is cleaned to retain only the "chem_comp" and "atom_site" categories.
+
+Note that this script is only intended to be used on a selective basis (e.g., only a few chemical component IDs
+at a time), as it relies on intensive API queries. This should NOT be used not for large-scale analysis, as
+trying to do so will require a significant amount of time and likely fail.
+
 
 Requirements:
     pip install "rcsb-api>=1.4.0"
@@ -36,7 +40,7 @@ from rcsbapi.search import AttributeQuery
 from rcsbapi.model import ModelQuery
 
 
-logging.basicConfig(level=logging.WARNING, format="%(asctime)s [%(levelname)s]-%(module)s.%(funcName)s: %(message)s")
+logging.basicConfig(level=logging.WARNING, format="%(asctime)s [%(levelname)s]: %(message)s")
 logger = logging.getLogger(__name__)
 
 
@@ -196,6 +200,8 @@ def extract_ligand_coordinates(ccid_list: list, pdbid_limit_list: list, pdb_limi
         fp_out = Path(output_dir) / f"{ccd_id}-coordinates.cif"
         ccd_pdbid_list = search_pdb_by_ccid(ccd_id, pdbid_limit_list, pdb_limit_num)
         if ccd_pdbid_list:
+            if len(ccd_pdbid_list) >= 25:
+                logger.warning(f"Warning: Extracting coordinate data for {len(ccd_pdbid_list)} ligands - process may take a while to finish.")
             ligand_extractor = LigandCoordinatesExtract()
             ligand_extractor.process_all(ccd_id, ccd_pdbid_list, fp_out, write_interval=write_interval)
         else:
@@ -203,7 +209,7 @@ def extract_ligand_coordinates(ccid_list: list, pdbid_limit_list: list, pdb_limi
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Extract coordinates of specific ligands from PDB entries")
+    parser = argparse.ArgumentParser(description="Extract coordinates of specific ligands from PDB entries.")
 
     # take mandatory author-provided CCD IDs, can process multiple IDs
     parser.add_argument("-c", "--ccids", nargs="+", required=True, help="Space-separated list of ligand CCD IDs (e.g. CPT)")

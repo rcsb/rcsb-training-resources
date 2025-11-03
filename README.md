@@ -21,6 +21,8 @@ In addition to resources and materials referenced in RCSB PDB training events ([
 | :---- | :---------- | :---------: |
 | [fetch_initial_release_date.ipynb](example-use-cases/archive-wide-queries/fetch_initial_release_date.ipynb), [fetch_initial_release_date.py](example-use-cases/archive-wide-queries/fetch_initial_release_date.py) | Python script to fetch initial release date for all currently released PDB entries | *Scripting* |
 | [fetch_chemical_descriptors.ipynb](example-use-cases/chemical-components/fetch_chemical_descriptors.ipynb), [fetch_chemical_descriptors.py](example-use-cases/chemical-components/fetch_chemical_descriptors.py) | Python script to fetch all chemical component IDs and then fetch the SMILES, InChI, etc. strings associated with them | *Scripting* |
+| [generate_pdb_ligand_mappings.py](example-use-cases/pdb-ligand-composition/generate_pdb_ligand_mappings.py]) | Python script to generate mapping files of all chemical component IDs and the corresponding PDB IDs in which they exist, and vice-versa | *Scripting* |
+| [extract_ligand_coordinates.py](example-use-cases/pdb-ligand-composition/extract_ligand_coordinates.py]) | Python script to fetch and extract ligand coordinate data from PDB archive files | *Scripting* |
 
 ## Skill Levels
 
