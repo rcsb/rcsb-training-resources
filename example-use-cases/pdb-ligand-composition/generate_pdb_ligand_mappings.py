@@ -181,6 +181,8 @@ def generate_cc_extra_data(chem_comp_to_pdb_map):
         cc_data = cc.get("chem_comp")
         if cc_data:
             cc_name = cc_data.get("name")
+            if cc_name:
+                cc_name = cc_name.replace("\n", "")  # strip newline characters
             cc_formula = cc_data.get("formula")
         cc_occurrence_count = len(chem_comp_to_pdb_map[cc_id])
         cc_extra_tup = (cc_id, cc_occurrence_count, cc_name, cc_formula)
