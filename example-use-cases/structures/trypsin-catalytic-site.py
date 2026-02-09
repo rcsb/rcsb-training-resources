@@ -167,7 +167,7 @@ if __name__ == "__main__":
         final_rows.append(row)
 
     # Write CSV
-    with open("/Users/yana.rose/trypsin-catalytic-site.csv", "w") as handle:
+    with open("trypsin-catalytic-site.csv", "w") as handle:
         headers = list(final_rows[0].keys())
         writer = csv.DictWriter(handle, fieldnames=headers)
         writer.writeheader()
