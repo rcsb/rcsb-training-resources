@@ -1,9 +1,9 @@
 # Streamlining Access to RCSB PDB APIs with Python: Sequence and Models
-This workshop focused on utilizing the `rcsb-api` package for accessing the RCSB PDB Sequence and Model APIs. Complete package documentation can be viewed at [rcsbapi.readthedocs.io](https://rcsbapi.readthedocs.io/en/latest/index.html), and the source code is available on [GitHub](https://github.com/rcsb/py-rcsb-api/).
+This workshop focused on utilizing the `rcsb-api` package for accessing the RCSB PDB Sequence and Model APIs. Complete package documentation can be viewed at [rcsbapi.readthedocs.io](https://rcsbapi.readthedocs.io/en/latest/index.html), and the project source is available on [GitHub](https://github.com/rcsb/py-rcsb-api/).
 
 
 ## Webinar | May 19, 2026
-This directory contains the Jupyter notebooks used for the RCSB PDB API Webinar, "Streamlining Access to RCSB PDB APIs with Python: Sequence and Models". Additional notebooks and materials (including those focused on the Search and Data APIs), check out the [previous webinar's resources](../2025/python-rcsb-api).
+This directory contains the Jupyter notebooks used for the RCSB PDB API Webinar, "Streamlining Access to RCSB PDB APIs with Python: Sequence and Models". Additional notebooks and materials (including those focused on the Search and Data APIs), check out the [previous webinar's resources](../../2025/python-rcsb-api).
 
 | File name        | Description |
 | ---------------- | ------------|
