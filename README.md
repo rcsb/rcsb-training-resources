@@ -5,6 +5,7 @@ The RCSB PDB frequently offers [training-events](training-events) that explain a
 
 | Workshop      | Dates     | Link to Resources | Skill Level |
 | :------------- | :-------------: | :------------- | :------------- |
+| Streamlining Access to RCSB PDB APIs with Python: Sequence and Models | May 19, 2026 | [Workshop materials](training-events/2026/python-rcsb-api) | *Scripting* |
 | Searching the PDB for high-quality ligand-bound structures | September 8, 2025 | [Workshop materials](training-events/2025/ligand-structure-quality) | *Scripting* |
 | Streamlining Access to RCSB PDB APIs with Python | March 24, 2025 | [Workshop materials](training-events/2025/python-rcsb-api) | *Scripting* |
 | Python Scripting for Molecular Docking | July 18, 2024 | [Workshop materials](https://github.com/janash/iqb-2024), [Course description](https://iqb.rutgers.edu/node/284) | *Introductory* |
