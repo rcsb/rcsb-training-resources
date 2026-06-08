@@ -15,11 +15,13 @@ EC_CLASS_MAP = {
     "7": "Translocase",
 }
 
+QUERY_PDB_ID="1PQ5"
+
 # Pick EC numbers, preferring UniProt
 def pick_ec(ec_data, ec_list):
     if not ec_data:
         return
-    
+
     uniprot_ecs = []
     fallback_ecs = []
 
@@ -84,7 +86,7 @@ if __name__ == "__main__":
     )
     residues = [res1, res2, res3, res4, res5, res6]
     search_query = StructMotifQuery(
-        entry_id="1PQ5",
+        entry_id=QUERY_PDB_ID,
         residue_ids=residues,
         atom_pairing_scheme="ALL",
         rmsd_cutoff=2
@@ -99,6 +101,8 @@ if __name__ == "__main__":
 
     for id in results:
         entry_id = id['identifier'].split("-")[0].lower()
+        if entry_id == QUERY_PDB_ID.lower():
+            continue
         extended_id = f"pdb_{entry_id.zfill(8)}"
         context = id['services'][0]['nodes'][0]['match_context']
 
@@ -144,7 +148,7 @@ if __name__ == "__main__":
             all_rows.append({
                 "_key": (entry_id, entity_id),
                 "PDB ID": extended_id,
-                "Entyty ID": entity_id,
+                "Entity ID": entity_id,
                 "Chain ID(s)": chain_ids,
                 "UniProt ID(s)": ", ".join(sorted(uniprot_ids)) if uniprot_ids else "",
                 "Protein(s)": ", ".join(sorted(protein)) if protein else "",
@@ -173,4 +177,20 @@ if __name__ == "__main__":
         writer.writeheader()
         writer.writerows(final_rows)
 
-    print("Wrote data to trypsin-catalytic-site.csv")
+    print("Wrote %d rows of data to trypsin-catalytic-site.csv" % len(final_rows))
+
+    # Write de-duplicated CSV by UniProt ID(s)
+    dedup_uniprot = {}
+    for row in final_rows:
+        uniprot_key = row["UniProt ID(s)"]
+        if uniprot_key not in dedup_uniprot or row["RMSD"] < dedup_uniprot[uniprot_key]["RMSD"]:
+            dedup_uniprot[uniprot_key] = row
+
+    dedup_rows = list(dedup_uniprot.values())
+    with open("trypsin-catalytic-site-dedup-uniprot.csv", "w") as handle:
+        headers = list(dedup_rows[0].keys())
+        writer = csv.DictWriter(handle, fieldnames=headers)
+        writer.writeheader()
+        writer.writerows(dedup_rows)
+
+    print("Wrote %d rows of non-UniProt-redundant data to trypsin-catalytic-site-dedup-uniprot.csv" % len(dedup_rows))
