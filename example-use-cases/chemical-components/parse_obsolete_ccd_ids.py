@@ -82,8 +82,8 @@ def write(l_id, filename_out):
         filename_out (str): Output filename.
     """
     with open(filename_out, 'w') as f:
-        for id in l_id:
-            f.write(id)
+        for ccd_id in l_id:
+            f.write(ccd_id)
             f.write("\n")
 
             
