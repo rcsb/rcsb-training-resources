@@ -39,12 +39,12 @@ def downloadComponents():
     else:
         if filename_local.endswith(".gz"):
             print("to unzip %s" % filename_local)
-            filename_local_unzipped = filename_local.strip(".gz")
+            filename_local_unzipped = filename_local[:-3]  # remove the .gz extension
             try:
                 with gzip.open(filename_local, 'rb') as file_in:
                     with open(filename_local_unzipped, 'wb') as file_out:
                         shutil.copyfileobj(file_in, file_out)
-                        os.remove(filename_local)
+                os.remove(filename_local)
                 return filename_local_unzipped
             except Exception as err_unzip:
                 print(err_unzip)
@@ -65,12 +65,11 @@ def parse(filename_in):
     """
     l_id = []
     io = IoAdapterCore()
-    with open(filename_in) as f:
-        l_data_container = io.readFile(filename_in)
-        for data_container in l_data_container:
-            print("check CCD %s" % data_container.getName())
-            if data_container.getObj("chem_comp").getValue("pdbx_release_status", 0) == "OBS":
-                l_id.append(data_container.getObj("chem_comp").getValue("id", 0))
+    l_data_container = io.readFile(filename_in)
+    for data_container in l_data_container:
+        print("check CCD %s" % data_container.getName())
+        if data_container.getObj("chem_comp").getValue("pdbx_release_status", 0) == "OBS":
+            l_id.append(data_container.getObj("chem_comp").getValue("id", 0))
     return l_id
 
 
@@ -90,6 +89,9 @@ def write(l_id, filename_out):
 def main():
     """Run the end-to-end workflow for obsolete CCD ID extraction."""
     filename_in = downloadComponents()
+    if filename_in is None:
+        print("failed to download and/or unzip the components file")
+        return
     l_obsolete = parse(filename_in)
     filename_out = "obsolete_ccd_id.list"
     write(l_obsolete, filename_out)
