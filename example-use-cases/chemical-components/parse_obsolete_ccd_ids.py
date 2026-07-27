@@ -10,6 +10,7 @@ import os
 import gzip
 import shutil
 import urllib.request
+import urllib.error
 from mmcif.io.IoAdapterCore import IoAdapterCore
 
 
